@@ -27,7 +27,8 @@ PCASettings *pcaset = new  PCASettings;
 
 
 
-  qDebug() << "hash read value:" <<hash.value("COMM_CONFIG/PROTOCOL").toString() ;
+  qDebug() << "hash read value:" <<hash.value("COMM_CONFIG/PROTOCOL").toString();
+  qDebug() << "hash read value:" <<hash.value("COMM_CONFIG/PROTOCOL").toString();
 }
 
 
